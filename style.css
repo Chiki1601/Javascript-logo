@@ -1,0 +1,129 @@
+/* Colour Palette */
+body {
+  background: #2F2F2C;
+}
+
+.container {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  top: 30px;
+  margin: auto;
+  background: none;
+}
+
+.mug {
+  position: absolute;
+  height: 200px;
+  width: 150px;
+  left: 65px;
+  top: 70px;
+  border: 10px solid #E5E2DE;
+  border-top: 5px solid #E5E2DE;
+  border-radius: 10px 10px 0 0;
+  background: #FAE100;
+}
+
+.letters {
+  position: absolute;
+  top: 110px;
+  left: 50px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 5em;
+  font-weight: 900;
+}
+
+.bottom {
+  position: absolute;
+  height: 25px;
+  width: 190px;
+  left: 55px;
+  top: 270px;
+  border-radius: 20px;
+  background: #E5E2DE;
+}
+
+.handle {
+  position: absolute;
+  height: 110px;
+  width: 50px;
+  left: 210px;
+  top: 100px;
+  background: transparent;
+  border-radius: 50%;
+  border: 15px solid #E5E2DE;
+  z-index: -1;
+}
+
+.foam {
+  position: absolute;
+  height: 25px;
+  width: 100%;
+  background: #FCFCFC;
+}
+
+.bubbles {
+  position: absolute;
+  height: 50px;
+  width: 80px;
+  left: -5px;
+  top: -30px;
+  border-radius: 50%;
+  background: #FCFCFC;
+  z-index: -1;
+}
+
+.bubbles:before {
+  content: "";
+  position: absolute;
+  height: 70px;
+  width: 100px;
+  left: 30px;
+  top: -20px;
+  background: #FCFCFC;
+  border-radius: 50%;
+}
+
+.bubbles:after {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 110px;
+  top: 0px;
+  border-radius: 50%;
+  background: #FCFCFC;
+}
+
+.drip {
+  position: absolute;
+  height: 70px;
+  width: 15px;
+  left: 5px;
+  top: -10px;
+  border-radius: 0 0 50px 50px;
+  background: #FCFCFC;
+}
+
+.drip:before {
+  content: "";
+  position: absolute;
+  height: 70px;
+  width: 15px;
+  left: 15px;
+  top: -10px;
+  border-radius: 0 0 50px 50px;
+  background: #FCFCFC;
+}
+
+.drip:after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 15px;
+  left: 30px;
+  top: -10px;
+  border-radius: 0 0 50px 50px;
+  background: #FCFCFC;
+}
